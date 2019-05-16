@@ -1,0 +1,39 @@
+# For Eclipse and Netbeans project files
+.cproject
+.project
+.settings
+nbproject
+
+# For VSCode
+.vscode
+GPATH
+GTAGS
+GRTAGS
+
+# For Build results except changes to launchApp.sh in bin
+lib
+bin/*
+!bin/launchApp.sh
+build
+
+# For CMake
+Makefile
+CMakeFiles
+cmake_install.cmake
+CMakeCache.txt
+
+# For Doxygen Results
+html
+latex
+
+# For buffer files
+*~
+*.swp
+
+# For protobuff
+*.pb.cc
+*.pb.h
+
+
+# Ignore created .cmake file
+AVAConfig.cmake
